@@ -7,3 +7,15 @@
 * {
     font-family: Montserrat;
 }
+
+.br-\[50\%\] {
+    border-radius: 50%;
+}
+
+.ziro_icon-activ:active {
+    background: #000;
+}
+
+.hello:active{
+    transform: rotate(45deg);
+}
