@@ -38,14 +38,13 @@ export default function Chazor() {
           {/*---/---\---*/}
 
           <div className='w-[100%] text-center'>
-            <button className='absolute -mt-[100px] w-[40px]' onClick={() => setShow(!show)}>
+            <button className={`mt-[700px] w-[40px] transition-all duration-500  ${show && 'rotate-[135deg]'}`} onClick={() => setShow(!show)}>
               <img className='bg-white br-[50%]  h-[40px]' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF8VnNdKbMkivHDNI4XI3bIjmMeKqU5AiHww&usqp=CAU" alt="icon-x" />
             </button>
           </div>
 
-          {
-            show ?
-              // ---section-9--- //  
+          
+              {/* // ---section-9--- //   */}
               <section className=' w-[100%] p-[150px]'>
                 {/* 1 */}
                 <div className='flex'>
@@ -97,8 +96,7 @@ export default function Chazor() {
                 </div>
 
               </section>
-              : null
-          }
+              
           {/*---/---\---*/}
         </section>
 
@@ -333,6 +331,7 @@ export default function Chazor() {
           }
         </section>
       </div>
+      <video src=""></video>
     </Layout>
   )
 }
