@@ -8,6 +8,10 @@
     font-family: Montserrat;
 }
 
+body {
+    scroll-behavior: smooth !important;
+}
+
 .br-\[50\%\] {
     border-radius: 50%;
 }
@@ -16,6 +20,6 @@
     background: #000;
 }
 
-.hello:active{
+.hello:active {
     transform: rotate(45deg);
 }
