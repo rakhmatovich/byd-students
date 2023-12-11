@@ -38,7 +38,7 @@ export default function Chazor() {
           {/*---/---\---*/}
 
           <div className='w-[100%] text-center'>
-            <button className={`mt-[700px] w-[40px] transition-all duration-500  ${show && 'rotate-[135deg]'}`} onClick={() => setShow(!show)} onClick={() => setShow(!show)}>
+            <button className={`mt-[700px] w-[40px] transition-all duration-500  ${show && 'rotate-[135deg]'}`} onClick={() => setShow(!show)}>
               <img className='bg-white br-[50%]  h-[40px]' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF8VnNdKbMkivHDNI4XI3bIjmMeKqU5AiHww&usqp=CAU" alt="icon-x" />
             </button>
           </div>
