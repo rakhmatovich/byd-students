@@ -20,6 +20,3 @@ body {
     background: #000;
 }
 
-.hello:active {
-    transform: rotate(45deg);
-}
