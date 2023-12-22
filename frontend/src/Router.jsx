@@ -3,6 +3,8 @@ import Chazor from './pages/Chazor'
 import AboutByd from './pages/AboutByd'
 import Han from './pages/Han'
 import Politikakonfidiatalnost from './pages/Politikakonfidiatalnost'
+import Testdrive from './pages/Testdrive'
+import { Usage } from './pages/Usage'
 import BydSong from './pages/BydSong'
 import Home from './pages/Home'
 
@@ -16,6 +18,8 @@ export default function Router() {
                 <Route path='/about-byd' element={<AboutByd />} />
                 <Route path='/han' element={<Han />} />
                 <Route path='/byd-konf' element={<Politikakonfidiatalnost />} />
+                <Route path='/testdrive' element={<Testdrive />} />
+                <Route path='/usage' element={<Usage />} />      
             </Routes>
         </BrowserRouter>
     )
