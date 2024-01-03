@@ -1,4 +1,4 @@
-import Layout from '../components/Layout'
+import Layout from "../components/Layout";
 
 export default function AboutByd() {
   return (
@@ -7,16 +7,14 @@ export default function AboutByd() {
         <video muted autoPlay className='w-[100%]' src="https://www.byd.com/content/dam/byd-site/uz/about-byd/video.mp4"></video>
       </section>
       {/*---section-1---*/}
-      <section className='w-[100%] h-[1070px]'>
-        <img className='absolute -z-10' src="https://www.byd.com/content/dam/byd-site/uz/about-byd/about-BYD-pc.jpg" alt="" />
+      <section className='w-full h-screen bg-center bg-cover bg-[url("https://www.byd.com/content/dam/byd-site/uz/about-byd/about-BYD-pc.jpg")]'>
         <div className=' w-[1401px] text-center mx-auto pt-[87px]'>
           <h1 className='text-black text-4xl font-semibold'>О компании BYD</h1>
           <p className='mt-[36px]'>Основанная в феврале <b>1995</b> года, BYD является высокотехнологичной компанией, стремящейся использовать технологические инновации для улучшения жизни. После более чем <b>27</b> лет быстрого роста BYD создала более <b>30</b> промышленных парков на <b>6</b> континентах и сыграла значительную роль в отраслях, связанных с электроникой, автомобилями, возобновляемыми источниками энергии и железнодорожным транспортом. Сосредоточив внимание на получении, хранении и применении энергии, BYD предлагает комплексные новые энергетические решения с нулевым уровнем выбросов.</p>
         </div>
       </section>
       {/*---section---*/}
-      <section className='w-[100%] h-[1070px]'>
-        <img className='w-[100%] absolute -z-10' src="https://www.byd.com/content/dam/byd-site/uz/about-byd/diversification-PC.jpg" alt="" />
+      <section className='w-full h-screen bg-center bg-cover bg-[url("https://www.byd.com/content/dam/byd-site/uz/about-byd/diversification-PC.jpg )]'>
         <h1 className='text-4xl text-white text-center font-medium pt-[125px]'>Диверсификация</h1>
         <div className='m-auto flex'>
           {/*  */}
@@ -49,16 +47,14 @@ export default function AboutByd() {
 
       {/*---section-2---*/}
 
-      <section className='w-[100%] h-[1070px]'>
-        <img className='w-[100%] absolute -z-10' src="https://www.byd.com/content/dam/byd-site/uz/about-byd/globalization-pc2.jpg" alt="" />
+      <section className='w-full h-screen bg-center bg-cover bg-[url("https://www.byd.com/content/dam/byd-site/uz/about-byd/globalization-pc2.jpg")]'>
         <h1 className='text-white text-4xl text-center font-semibold pt-[120px]'>Глобализация</h1>
         <p className='text-white text-center mt-[36px]'>более <b>400</b> городов, более <b>70</b> странов, <b>6</b> континентов</p>
       </section>
 
       {/*---section-3---*/}
 
-      <section className='w-[100%] h-[1070px]'>
-        <img className='w-[100%] absolute -z-10' src="https://www.byd.com/content/dam/byd-site/uz/about-byd/auto-pc.jpg" alt="" />
+      <section className='w-full h-screen bg-center bg-cover bg-[url("https://www.byd.com/content/dam/byd-site/uz/about-byd/auto-pc.jpg")]'>
         <div className='w-[1401px] text-center mx-auto'>
           <h1 className='text-white text-4xl font-semibold pt-[120px]'>Авто</h1>
           <p className='text-white mt-[36px]'>Компания BYD разработала лидирующую в отрасли технологию Blade Battery, e-platform 3.0 и двухрежимную гибридную силовую технологию, ускоряющую переход от транспортных средств, работающих на ископаемом топливе, к электромобилям, который происходит раз в столетие.</p>
@@ -67,9 +63,7 @@ export default function AboutByd() {
 
       {/*---section-4---*/}
 
-      <section className='w-[100%] h-[1070px]'>
-        <img className='w-[100%] absolute -z-10' src="https://www.byd.com/content/dam/byd-site/uz/about-byd/blade-battery-pc.jpg" alt="" />
-        {/*  */}
+      <section className='w-full h-screen bg-center bg-cover bg-[url("https://www.byd.com/content/dam/byd-site/uz/about-byd/blade-battery-pc.jpg")]'>
 
         <div className='w-[80%] mx-auto'>
           <h1 className='text-white text-3xl font-semibold text-center  pt-[120px]'>Blade Battery</h1>
@@ -116,10 +110,7 @@ export default function AboutByd() {
 
       {/*---section-5---*/}
 
-      <section className="w-[100%] h-[1070px]">
-        <img className='w-[100%] absolute -z-10' src="https://www.byd.com/content/dam/byd-site/uz/about-byd/e-Platform-PC.jpg" alt="" />
-
-        {/*  */}
+      <section className='w-full h-screen bg-center bg-cover bg-[url("https://www.byd.com/content/dam/byd-site/uz/about-byd/e-Platform-PC.jpg")]'>
 
         <div className='w-[100%]'>
           <h1 className='text-white text-4xl font-semibold text-center pt-[120px]'>e-Platform 3.0</h1>
@@ -166,8 +157,7 @@ export default function AboutByd() {
 
       {/*---section-6---*/}
 
-      <section className='w-[100%] h-[1070px]'>
-        <img className='w-[100%] absolute -z-10' src="https://www.byd.com/content/dam/byd-site/uz/about-byd/semiconductor-chip-PC.jpg" alt="" />
+      <section className='w-full h-screen bg-center bg-cover bg-[url("https://www.byd.com/content/dam/byd-site/uz/about-byd/semiconductor-chip-PC.jpg")]'>
         <div className='w-[1401px] text-center mx-auto'>
           <h1 className='text-white text-4xl font-semibold pt-[120px]'>Полупроводниковый чип</h1>
           <p className='text-white mt-[36px]'>Полупроводниковый чип, «ЦП» транспортных средств на новой энергии, является основной технологией всей отрасли.</p>
@@ -176,8 +166,7 @@ export default function AboutByd() {
 
       {/*---section-7---*/}
 
-      <section className='w-[100%] h-[1070px]'>
-        <img className='w-[100%] absolute -z-10' src="https://www.byd.com/content/dam/byd-site/uz/about-byd/dilink-PC.jpg" alt="" />
+      <section className='w-full h-screen bg-center bg-cover bg-[url("https://www.byd.com/content/dam/byd-site/uz/about-byd/dilink-PC.jpg")]'>
         <div className='w-[1401px] text-center mx-auto'>
           <h1 className='text-white text-4xl font-semibold pt-[120px]'>Интеллектуальная система сетевого подключения BYD</h1>
           <p className='text-white mt-[36px]'>Функции смартфона интегрированы в бортовую платформу.</p>
@@ -186,8 +175,7 @@ export default function AboutByd() {
 
       {/*---section-8---*/}
 
-      <section className='w-[100%] h-[1070px]'>
-        <img className='w-[100%] absolute -z-10' src="https://www.byd.com/content/dam/byd-site/uz/about-byd/vehicle-safety-PC.jpg" alt="" />
+      <section className='w-full h-screen bg-center bg-cover bg-[url("https://www.byd.com/content/dam/byd-site/uz/about-byd/vehicle-safety-PC.jpg")]'>
         <div className='w-[1401px] text-center mx-auto'>
           <h1 className='text-white text-4xl font-semibold pt-[120px]'>Безопасность транспортного средства</h1>
           <p className='text-white mt-[36px]'>Многочисленные сложные испытания для обеспечения высочайшего качества</p>
@@ -196,8 +184,7 @@ export default function AboutByd() {
 
       {/*---section-9---*/}
 
-      <section className='w-[100%] h-[1070px]'>
-        <img className='w-[100%] absolute -z-10' src="https://www.byd.com/content/dam/byd-site/uz/about-byd/market-performance-PC.jpg" alt="" />
+      <section className='w-full h-screen bg-center bg-cover bg-[url("https://www.byd.com/content/dam/byd-site/uz/about-byd/market-performance-PC.jpg")]'>
         <div className='w-[1401px] text-center mx-auto'>
           <h1 className='text-white text-4xl font-semibold pt-[120px]'>Рыночные показатели</h1>
           <p className='text-white mt-[36px]'>В 2022 году BYD продала по всему миру около <b>1 860 000</b> легковых автомобилей на новых источниках энергии</p>
@@ -206,8 +193,7 @@ export default function AboutByd() {
 
       {/*---section-10---*/}
 
-      <section className='w-[100%] h-[1070px]'>
-        <img className='w-[100%] absolute -z-10' src="https://www.byd.com/content/dam/byd-site/uz/about-byd/cool-the-earth-PC.jpg" alt="" />
+      <section className='w-full h-screen bg-center bg-cover bg-[url("https://www.byd.com/content/dam/byd-site/uz/about-byd/cool-the-earth-PC.jpg")]'>
         <div className='w-[1401px] text-center mx-auto'>
           <h1 className='text-white text-4xl font-semibold pt-[120px]'>Охладить Землю на 1°C</h1>
           <p className='text-white mt-[36px]'>BYD работает над электрификацией городского общественного транспорта, чтобы сократить глобальные выбросы парниковых газов, предполагая «Охладить Землю на 1°C».</p>
@@ -216,8 +202,7 @@ export default function AboutByd() {
 
       {/*---section-11---*/}
 
-      <section className='w-[100%] h-[1070px]'>
-        <img className='w-[100%] absolute -z-10' src="https://www.byd.com/content/dam/byd-site/uz/about-byd/pollution-and-emission-reduction-PC.jpg" alt="" />
+      <section className='w-full h-screen bg-center bg-cover bg-[url("https://www.byd.com/content/dam/byd-site/uz/about-byd/pollution-and-emission-reduction-PC.jpg")]'>
         <div className='w-[1401px] text-center mx-auto'>
           <h1 className='text-white text-4xl font-semibold pt-[120px]'>Загрязнение и сокращение выбросов</h1>
           <p className='text-white mt-[36px]'>По состоянию на 19 апреля 2022 года BYD сэкономил <b>10 756 330 036</b> кг выбросов углерода, что эквивалентно посадке около 896 360 836 деревьев.</p>
@@ -226,8 +211,7 @@ export default function AboutByd() {
 
       {/*---section-12---*/}
 
-      <section className='w-[100%] h-[1070px]'>
-        <img className='w-[100%] absolute -z-10' src="https://www.byd.com/content/dam/byd-site/uz/about-byd/social-responsibility-PC.jpg" alt="" />
+      <section className='w-full h-screen bg-center bg-cover bg-[url("https://www.byd.com/content/dam/byd-site/uz/about-byd/social-responsibility-PC.jpg")]'>
         <div className='w-[1401px] text-center mx-auto'>
           <h1 className='text-black text-4xl font-semibold pt-[120px]'>Корпоративная социальная ответственность</h1>
           <p className='text-black mt-[36px]'>В начале 2020 года, в разгар Covid-19, BYD быстро отреагировала и объявила, что будет производить маски для лица, чтобы уменьшить нехватку масок во всем мире. Маски для лица BYD были доставлены более чем в <b>80</b> стран и регионов.</p>

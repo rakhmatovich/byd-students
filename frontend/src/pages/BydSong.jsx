@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Layout from '../components/Layout'
-import Slider from './slide'
+import Slider from '../components/Slide'
+import BladeBattery from '../components/BladeBattery'
 
 export default function BydSong() {
-  const [show, setShow] = useState(false)
 
   return (
     <Layout>
@@ -13,19 +13,19 @@ export default function BydSong() {
       {/*---section-2---*/}
       <section className='flex p-32'>
         <div className='w-[50%] mx-auto'>
-          <p className='text-2xl'>
-            Для повышения эффективности и производительности модель оснащена двигателем 1,5 л / 1,5 Ti инновационного типа и электрической гибридной системой EHS. Благодаря сочетанию производительности и энергоэффективности, это обеспечивает экономию в поездках на недалекие расстояния с использованием электрической батареи и хорошую мощность в дальних поездках с использованием топливного двигателя. Благодаря эффективному запуску двигателя, как в автомобилях с двигателем внутреннего сгорания, и ощущению от вождения, аналогичного испытываемому в полностью электрическом автомобиле, эта модель поистине способна удивить.
+          <p className='w-full hover:opacity-80'>
+          Для обеспечения превосходных характеристик и эффективности в модели используется современный двигатель 1,5 л/1,5 Ti и электрическая гибридная система EHS, обеспечивающая сочетание производительности и энергоэффективности, экономию заряда аккумулятора при движении на короткие расстояния и экономию топлива при длительных поездках. - дальнее вождение. Благодаря столь же эффективному запуску двигателя, как у автомобиля с ДВС, и ощущениям от вождения, как у чистого электромобиля, эта модель впечатляет вас во всех отношениях.ц
           </p>
         </div>
         <div className='ml-20'>
-          <img className="" src="https://www.byd.com/content/dam/byd-site/uz/product/song/section1-1.jpg" alt="" />
+          <img src="https://www.byd.com/content/dam/byd-site/uz/product/song/section1-1.jpg" alt="" />
         </div>
       </section>
       {/*---section-3---*/}
       <Slider />
       {/*---section-4---*/}
       <section className='w-[100%]'>
-        <h1 className='ml-12 text-4xl w-[650px] m-20'>
+        <h1 className='ml-12 text-4xl w-[650px] m-20 font-semibold'>
           ПОПУЛЯРНЫЙ: Современный
           изящный дизайн в авторской подаче
         </h1>
@@ -40,7 +40,7 @@ export default function BydSong() {
             <p className='text-gray-500'> созданы для того, чтобы блистать и впечатлять.</p>
           </div>
         </div>
-
+        {/*  */}
         <div className='bg-gray-200 w-[100%] flex'>
           <div className='ml-20 m-auto w-[547px]'>
 
@@ -53,7 +53,7 @@ export default function BydSong() {
 
           <img className='w-[50%]' src="https://www.byd.com/content/dam/byd-site/uz/product/song/section2-2.jpg" alt="" />
         </div>
-
+        {/*  */}
         <div className='bg-gray-200 w-[100%] flex'>
           <img className='w-[50%]' src="https://www.byd.com/content/dam/byd-site/uz/product/song/section2-3.jpg" alt="" />
           <div className='ml-20 m-auto w-[547px]'>
@@ -71,10 +71,8 @@ export default function BydSong() {
 
       <section className='w-[100%]'>
         <div className='mt-[64px] ml-[50px]'>
-          <h1 className='text-3xl'>
+          <h1 className='text-3xl w-[50%] font-s'>
             РОСКОШНЫЙ: Люкс-интерьер с
-          </h1>
-          <h1 className='text-3xl'>
             премиальными эстетикой и атмосферой
           </h1>
         </div>
@@ -171,73 +169,11 @@ export default function BydSong() {
           </div>
         </div>
       </section>
+
       {/*---section-8---*/}
-      <section className='w-[100%]'>
-        <img className='-z-10 w-[100%] absolute' src="https://www.byd.com/content/dam/byd-site/uz/product/song/section.jpg" alt="" />
-        <div className='w-[1064px] m-auto text-center pt-32'>
-          <h1 className='text-white text-4xl font-semibold'>Сверхнадежный одноячеечный аккумулятор</h1>
-          <h1 className='text-white text-4xl font-semibold'>Blade Battery</h1>
-          <p className='mt-5 text-white'>Емкость аккумулятора 85,4 кВт⋅ч, с большим сроком службы и дальностью пробега, задающая новый уровень безопасности</p>
-          <p className='text-white'>электромобилей.</p>
-        </div>
-        {/* // ---section-9--- //   */}
-        <div className='w-[100%] text-center'>
-          <button className={`mt-[700px] w-[40px] transition-all duration-500  ${show && 'rotate-[135deg]'}`} onClick={() => setShow(!show)}>
-            <img className='bg-white br-[50%]  h-[40px]' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF8VnNdKbMkivHDNI4XI3bIjmMeKqU5AiHww&usqp=CAU" alt="icon-x" />
-          </button>
-        </div>
-        {/* // x---section-9---x // */}
-        <section className={`overflow-hidden mt-[50px] w-[100%] transition-height duration-1000 ${show ? 'h-[250vh]' : 'h-0'}`}>
-          <div className='flex'>
-            <img className='w-[50%]' src="https://www.byd.com/content/dam/byd-site/uz/product/song/F01-Sub01.jpg" alt="" />
-            <div className='ml-20 m-auto w-[547px]'>
-              <h1 className='text-black text-2xl font-medium'>Повышенная безопасность</h1>
-              <p className='mt-5 text-black'>Сырьевой материал, фосфат железа лития, обладает рядом полезных характеристик: медленное выделение тепла, низкая теплоотдача и отсутствие выделения кислорода. Уникальная форма плоского прямоугольника также улучшает эффективность охлаждения и предварительного нагрева. Батарея Blade Battery благополучно прошла тест на пробивание гвоздя, не выделяя огня или дыма.</p>
-            </div>
-          </div>
 
-          {/*  */}
+      <BladeBattery />
 
-          <div className='flex'>
-            <div className='ml-20 m-auto w-[547px]'>
-              <h1 className='text-black text-2xl font-medium'>Испытание на проникновение гвоздя</h1>
-              <p className='mt-5 text-black'>Испытание на проникновение гвоздя считается одним из самых строгих способов проверки теплового разряда батарей. Цель - имитировать внутреннее короткое замыкание батареи. Обычно это происходит в результате попадания в батарею внешних острых металлических предметов во время серьезной дорожной аварии. Blade Battery прошла тест на проникновение гвоздя, не испуская дыма или огня. Температура поверхности достигала лишь 30-60°C.</p>
-            </div>
-            <img className='w-[50%]' src="https://www.byd.com/content/dam/byd-site/uz/product/song/F01-Sub02.jpg" alt="" />
-          </div>
-
-          {/*  */}
-
-          <div className='flex'>
-            <img className='w-[50%]' src="https://www.byd.com/content/dam/byd-site/uz/product/song/F01-Sub03.jpg" alt="" />
-            <div className='ml-20 m-auto w-[547px]'>
-              <h1 className='text-black text-2xl font-medium'>Оптимизированная прочность</h1>
-              <p className='mt-5 text-black'>Расположенные в виде массива в одной упаковке, каждая ячейка служит структурной балкой, помогающей противостоять силовому воздействию. Алюминиевая структура, напоминающая соты, с высокопрочными панелями на верхней и нижней стороне блока, значительно повышает жесткость в вертикальном направлении. Именно эта революционная конструкция обеспечивает оптимальную прочность Blade Battery.</p>
-            </div>
-          </div>
-
-          {/*  */}
-
-          <div className='flex'>
-            <div className='ml-20 m-auto w-[547px]'>
-              <h1 className='text-black text-2xl font-medium'>Увеличенный радиус действия</h1>
-              <p className='mt-5 text-black'>По сравнению с традиционными аккумуляторными блоками площадь, занимаемая Blade Battery, увеличена более чем на 50%, что обеспечивает повышенную плотность энергии и большую дальность действия.</p>
-            </div>
-            <img className='w-[50%]' src="https://www.byd.com/content/dam/byd-site/uz/product/song/F01-Sub04.jpg" alt="" />
-          </div>
-
-          {/*  */}
-
-          <div className='flex'>
-            <img className='w-[50%]' src="https://www.byd.com/content/dam/byd-site/uz/product/song/F01-Sub05.jpg" alt="" />
-            <div className='ml-20 m-auto w-[547px]'>
-              <h1 className='text-black text-2xl font-medium'>Более длительный срок службы</h1>
-              <p className='mt-5 text-black'>Батарея Blade Battery имеет длительный срок службы - более 5000 циклов заряда и разряда.</p>
-            </div>
-          </div>
-
-        </section>
-      </section>
     </Layout>
 
   )

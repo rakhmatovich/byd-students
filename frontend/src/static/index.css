@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 * {
-    font-family: Montserrat;
+    font-family: Montserra, sans-serif;
 }
 
 body {
@@ -16,14 +16,14 @@ body {
     border-radius: 50%;
 }
 
-.ziro_icon-activ:active {
-    background: #000;
-}
-
-.hello:active {
-    transform: rotate(45deg);
-}
-
 .banan {
     border: 2px solid #fff;
+}
+
+.shadow-one  {
+    box-shadow: 30px 0px 200px 3px rgba(34, 60, 80, 0.2);
+}
+
+.shadow-two {
+    box-shadow: -30px 0px 200px 0px rgba(34, 60, 80, 0.2);
 }

@@ -1,6 +1,6 @@
 import Layout from '../components/Layout'
 
-export default function Testdrive() {
+export default function TestDrive() {
     return (
 
 
@@ -15,7 +15,8 @@ export default function Testdrive() {
                         <div>
                             <h1 className='font-semibolt text-4xl p-10 text-black'>Новый byd SONG PLUS DM-i</h1>
                             <div className=''>
-                                <img className='w-[550px]' src="https://imgd-ct.aeplcdn.com/1056x660/n/kj75qva_1612605.jpg?q=75" alt="" />
+                                
+                                <img className='w-[550px]' src="/frontend/public/strong\ 1.jpg" alt="" />
                             </div>
                         </div>
                         <form className='flex flex-col w-[500px]'>
